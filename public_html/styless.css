@@ -1,0 +1,54 @@
+/* Centrar la sección de perfil en la página */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Estilo para la imagen */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #333;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 5px #888;
+}
+
+/* Estilo para la lista de información */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Estilo para el enlace (a) */
+a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Eliminar viñetas de lista de habilidades e intereses */
+ul li {
+  list-style: none;
+}
+
+/* Estilo para la clase .important */
+li.important {
+  font-weight: bold;
+}
+
